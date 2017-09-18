@@ -1,0 +1,17 @@
+---
+# ColorfullBlock Plugin
+Blocks: []
+
+# Here you can choose how speedy a block change. Choose it in seconds (you can use like 0.1 seconds)
+Speed: 0.1
+
+# Here you can change if each block will have different colors on change or if they are all the same
+# Choose 'same' to makes every blocks color same on change or 'not' to make them have random colors for each
+ColorChange: not
+
+# You can choose what happends if the player breaks the block
+# You can choose 'normal' mode (when the player breaks the block, it drops normally)
+# You can choose 'nodrop' mode (when the player breaks the block, nothing happends)
+# You can choose 'delete' mode (when the player breaks the block AND has the permission cfb.delete, the colorfulblock will be deleted and won't work anymore) NOT WORKING YET !
+BreakMode: nodrop
+...

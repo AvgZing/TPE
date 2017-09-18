@@ -1,0 +1,23 @@
+---
+Blocks:
+- 126/68/120/world
+- 127/68/119/world
+- 126/68/119/world
+- 126/68/121/world
+- 127/68/123/world
+- 126/68/122/world
+- 128/68/123/world
+- 128/68/122/world
+- 127/68/121/world
+- 127/68/120/world
+- 128/68/120/world
+- 128/68/119/world
+- 128/68/122/world
+- 129/68/122/world
+- 129/68/121/world
+- 128/68/121/world
+- 127/68/122/world
+Speed: 1
+ColorChange: same
+BreakMode: delete
+...

@@ -1,0 +1,9 @@
+---
+name: CustomLogger
+author:  Ad5001
+version: 1.0
+api: [1.12.0]
+main: Ad5001\CustomLogger\Main
+commands: []
+permissions: []
+...

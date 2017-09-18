@@ -1,0 +1,86 @@
+---
+# Config for BetterRaw
+
+# This is when you want to see the last news of from Ad5001. You can use : onStart (when servers starts), onCommand (when you use /news command (only for ops)) or never
+TellNews: "onStart"
+
+# This is to make reset config to a language. Replace the ResetLang to chose the language (avalaible languages: English(use "en"), le Français(entrez "fr"), Deutch(eingeben "de"), Español(entrar "es"))
+ResetLang: ""
+
+# Set a command here to be executed in the console
+# when a command of BetterRaw is executed
+# Use {player} to selects persons that have been selected (for tellraw, popup & tip)
+# Use {world} to select the world that players has been selected (for tellwordraw, popupworld & tipworld)
+# Use {sender} to select the command sender
+FloatingrawCmd: "tell {sender} &6No command selected"
+TellrawCmd: "tell {sender} &6No command selected (tellrawed player: {player})"
+TellWorldRawCmd: "tell {sender} &6No command selected (tellrawed world: {world})"
+PopupCmd: "tell {sender} &6No command selected (selected player: {player})"
+PopupWorldCmd: "tell {sender} &6No command selected (selected world: {world})"
+TipCmd: "tell {sender} &6No command selected (selected player: {player})"
+TipWorldCmd: "tell {sender} &6No command selected (selected world: {world})"
+SayrawCmd: "tell {sender} &6No command selected"
+SaypopupCmd: "tell {sender} &6No command selected"
+SaytipCmd: "tell {sender} &6No command selected"
+
+CkickRawCmd: "tell {sender} &6No command selected (kicked player: {player})"
+CbanCmd: "tell {sender} &6No command selected (banned player: {player})"
+CbanIpCmd: "tell {sender} &6No command selected (banned player: {player})"
+CbanIpCmd: "tell {sender} &6No command selected (banned ip player: {player})"
+CkickWorldCmd: "tell {sender} &6No command selected (selected world: {world})"
+CkickAllCmd: "tell {sender} &6No command selected"
+# Use {radius} to select the player radius
+TellRadiusRawCmd: "tell {sender} &6No command selected (tellrawed radius: {radius})"
+PopupRadiusCmd: "tell {sender} &6No command selected (selected radius: {radius})"
+TipRadiusCmd: "tell {sender} &6No command selected (selected radius: {radius})"
+CkickRadiusCmd: "tell {sender} &6No command selected (selected radius: {radius})"
+
+# Here is the message sent to the sender.
+# Use {player} to selects persons that have been selected (for tellraw, popup & tip)
+# Use {world} to select the world that players has been selected (for tellwordraw, popupword & tipworld)
+# Use {message} to select the message
+FloatingrawMSG: "Floating Text ({message})&a has been set!"
+TellrawMSG: "Message ({message})&a has been send to {player}!"
+TellworldrawMSG: "Message ({message})&b has been send on world {world}!"
+TipMSG: "Tip ({message})&4 has been send to {player}!"
+TipworldMSG: "Tip ({message})&c has been send on world {world}!"
+PopupMSG: "Popup ({message})&e has been send to {player}!"
+PopupworldMSG: "Popup ({message})&d has been send on world {world}!"
+SayrawMSG: "Message ({message})&6 has been broadcasted!"
+SaytipMSG: "Tip ({message})&4 has been broadcasted!"
+SaypopupMSG: "Popup ({message})&e has been broadcasted!"
+# Use {reason} to select reason
+CkickRawMSG: "&1You have kicked {player} : {reason}"
+CbanMSG: "&1You have banned {player} : {reason}"
+CbanIpMSG: "&1You have banned ip {player} : {reason}"
+CkickWorldMSG: "&1You have kicked everyone in world {world} : {reason}"
+CkickAllMSG: "&1You have kicked everyone in the server : {reason}"
+# Use {radius} to select the radius
+TellRadiusRawMSG: "You tellrawed everyone in a radius of {radius}. Message: {message}"
+PopupRadiusMSG: "You sent a popup everyone in a radius of {radius}. Message: {message}"
+TipRadiusMSG: "You sent a tip everyone in a radius of {radius}. Message: {message}"
+CkickRadiusMSG: "You kicked everyone in a radius of {radius}. Reason: {reason}"
+
+# *Do NOT modify that*
+LastBanMSG: ""
+LastBanPL: ""
+
+
+# Replace for BetterRaw
+
+# In this config, you can replace some word/messaage with other word or sentence in the message sent to the player in every command of BetterRaw.
+# You can do as multiple replace as you want with adding or removing one each time to the number after the "Replace" and the "ReplaceWith"
+# Example :
+# Replace1: "Hi"
+# ReplaceWith1: "Hello"
+# In that case, every "Hi" in the message will turn into Hello!
+# Do NOT skip any number or every replace after the skipped one won't be executed.
+
+
+# Change replaces here:
+Replace1: ""
+ReplaceWith1: ""
+
+Replace2: ""
+ReplaceWith2: ""
+...
