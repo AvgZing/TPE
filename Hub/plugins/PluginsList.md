@@ -10,3 +10,4 @@ https://github.com/LDX-MCPE/TimeCommander<br><br>
 https://github.com/TheRoyalBlock/SignTPOriginal<br><br>
 https://github.com/TheRoyalBlock/CommandSignsMod<br><br>
 https://github.com/PixelGuy75/JoinCommands <br><br>
+https://github.com/shoghicp/AlwaysSpawn
